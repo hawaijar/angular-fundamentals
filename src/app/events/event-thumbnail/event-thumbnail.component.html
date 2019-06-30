@@ -1,5 +1,5 @@
 <div class="well hoverwell thumbnail">
-  <h2>
+  <h2 [ngStyle]="{'color': isRebeccaPurple? 'rebeccapurple': 'white'}">
     {{event.name}}
     <span style="padding-left:5px">
       <img src="{{event.icon}}" alt="" width=30px height=30px>

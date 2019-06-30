@@ -54,6 +54,10 @@ export class EventsListComponent implements OnInit {
     console.log(data);
   }
 
+  updateColor() {
+
+  }
+
   ngOnInit() {
   }
 

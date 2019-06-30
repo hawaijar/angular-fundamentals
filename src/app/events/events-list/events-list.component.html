@@ -1,6 +1,7 @@
 <div>
   <h1>Upcoming Angular Events</h1>
+  <button class="btn btn-warning" (click)="thumbnail.setRebeccaPurple()">Update Color</button>
   <hr />
-  <event-thumbnail [event]="event1" (eventClick)="handleClick($event)"></event-thumbnail>
+  <event-thumbnail #thumbnail [event]="event1" (eventClick)="handleClick($event)"></event-thumbnail>
   <event-thumbnail [event]="event2" (eventClick)="handleClick($event)"></event-thumbnail>
   <event-thumbnail [event]="event3" (eventClick)="handleClick($event)"></event-thumbnail>

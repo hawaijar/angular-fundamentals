@@ -50,6 +50,10 @@ export class EventsListComponent implements OnInit {
 
   constructor() { }
 
+  handleClick(data) {
+    console.log(data);
+  }
+
   ngOnInit() {
   }
 
